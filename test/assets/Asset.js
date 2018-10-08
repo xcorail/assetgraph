@@ -1901,7 +1901,7 @@ describe('assets/Asset', function() {
           <html>
           <head></head>
           <body>
-            <svg><use href="#foo" xlink:href="#foo"></use></svg>
+            <svg xmlns:xlink="http://www.w3.org/1999/xlink"><use href="#foo" xlink:href="#foo"></use></svg>
           </body>
           </html>
         `
